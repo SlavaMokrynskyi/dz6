@@ -1,0 +1,146 @@
+@media (min-width:600px){
+    .container h1{
+        padding-left: 24%;
+    }
+    .menu{
+        float: left;
+        height: 100vh;
+        width: 200px; 
+    }
+    .dashboard{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .traffic{
+        width: 45%;
+        height: fit-content;
+        margin: 1%;
+        margin-left: 4%;
+    }
+    .traffic h3{
+        padding-left: 10%;
+    }    
+    .loads{
+        width: 45%;
+        height: fit-content;
+        margin: 1%;
+    }
+    .loads h3{
+        padding-left: 10%;
+    }
+    .recent_activity{
+        width: 92%;
+        margin:1%;
+        margin-left: 4%;
+        margin-bottom: 2%;
+    }
+}
+@media (max-width: 600px){
+    .container h1{
+        padding-left: 5%;
+    }
+    .menu{
+        width: 100%;
+    }
+    .traffic{
+        margin: 5%;
+    }
+    .traffic h3{
+        padding: 4%;
+    }
+    
+    .loads{
+        margin: 5%
+    }
+    .loads h3{
+        padding: 4%;
+    }
+    .recent_activity{
+        width: 89%;
+        margin:1%;
+        margin-left: 6%;
+        margin-bottom: 2%;
+    }
+    .recent_activity h3{
+        padding: 4%;
+    }
+}
+
+*{
+    font-family: sans-serif;
+}
+
+
+.container{
+    height: max-content;
+    background-color: #cccccc;
+    width: 100%;
+}
+
+.menu{
+    background-color: #242424;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 2%;
+    padding-left: x;
+    padding-right:1;
+}
+
+.menu p{
+    padding: 10px;
+    text-align: left;
+    border-bottom: #0f0f0f 1px solid;
+}
+
+.menu p :first-child{
+    padding-top: 50px;
+    text-align: left;
+}
+
+.menu img{
+    width: 80px;
+}
+
+.container h1{
+    padding-top: 2%;
+}
+
+.traffic{
+    background-color: #fff;
+    text-transform: uppercase;
+}
+
+.traffic img{
+    width: 50%;
+    padding: 10% 25%;
+}
+
+
+.loads{
+    background-color: #fff;
+    text-transform: uppercase;   
+}
+
+.loads img{
+    width: 50%;
+    padding: 10% 25%;
+}
+
+
+.recent_activity{
+    background-color: #fff;
+    
+}
+
+.recent_activity h3{
+    text-transform: uppercase;
+    padding-left: 4%;
+}
+
+td{
+    padding: 2%;
+    width: 100vh;
+    border-bottom: 1px solid lightgray;
+}
